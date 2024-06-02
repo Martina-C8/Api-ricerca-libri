@@ -1,0 +1,88 @@
+/* custom.css */
+
+/* Stile per le card */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-body {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.card-footer {
+    background-color: #fff;
+    border-top: none;
+    text-align: center;
+}
+
+/* Stile per i titoli nelle card */
+.card-title {
+    font-size: 1rem; /* Imposta la dimensione del font per i titoli nelle card */
+}
+
+/* Stile per il carrello */
+#carrello {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#carrello h4 {
+    margin-bottom: 20px;
+}
+
+#carrello .card {
+    margin-bottom: 10px;
+}
+
+#carrello .card img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#carrello .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Stile per i titoli nel carrello */
+#carrello .card-title {
+    font-size: 0.875rem; /* Imposta la dimensione del font per i titoli nel carrello */
+}
+
+/* Pulsante svuota carrello */
+#carrello .btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+/* Stile per il campo di ricerca */
+#ricerca {
+    width: 75%;
+}
+
+#ricerca + button {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

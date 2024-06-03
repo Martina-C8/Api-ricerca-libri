@@ -1,4 +1,7 @@
 /* custom.css */
+#logo {
+    width: 100px;
+}
 
 /* Stile per le card */
 .card {
